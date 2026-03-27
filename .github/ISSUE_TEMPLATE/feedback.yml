@@ -1,0 +1,33 @@
+name: General Feedback
+description: Share general feedback, ideas, or thoughts
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We'd love to hear your thoughts! All feedback is welcome.
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Tell us what's on your mind.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: What part of the app does this relate to?
+      options:
+        - Recipe creation / chat
+        - Pantry management
+        - Kitchen profiles
+        - Recipe book
+        - UI / Design
+        - Performance
+        - Other
+    validations:
+      required: false

@@ -1,0 +1,39 @@
+# Subprojects (tracked in their own repos)
+backend/
+frontend/
+BEF_model_b_backend/
+BEF_model_b_frontend/
+
+# Weekly updates (internal)
+Weekly Updates/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+*.tsbuildinfo
