@@ -1,6 +1,6 @@
 # SiS Model B
 
-**Siegel in Silico (SiS)** — an AI-powered recipe creativity assistant with a Python/FastAPI backend and React/Vite frontend.
+**Swap It Smart (SiS)** — an AI-powered recipe creativity assistant with a Python/FastAPI backend and React/Vite frontend.
 
 ## Changelog
 
