@@ -4,6 +4,13 @@
 
 ## Changelog
 
+### 2026-05-26
+- Added staged batch recipe imports with multi-file, folder, zip, document, link/text, and public Google Docs/Sheets link support
+- Raised batch recipe imports to 1000 items with background processing and progress polling
+- Switched batch recipe import to explicit opt-out confirmation with no automatic saves
+- Added recipe import batch/item tables with expiry-based housekeeping and saved-item payload cleanup
+- Replaced the single-recipe import sheet with a batch-first import workflow and review queue
+
 ### 2026-03-17
 - Fixed recipe share URL routing and consolidated public recipe routes
 - Simplified navigation in recipe cards; added pepper variants to always-available ingredients
@@ -111,7 +118,7 @@
 - Added nutritional analysis engine and family/household profiles
 - Added flavor profile radar chart and recipe comparison view
 - Added cooking mode with step-by-step timer and audio readout
-- Added mobile bottom tab bar with shopping list page
+- Added mobile bottom tab bar
 - Enhanced agent with proactive intelligence and workspace-type adaptation
 - Added recipe sharing and creative engagement features
 - Redesigned chat layout with smart auto-scroll and "Jump to latest" button
@@ -148,7 +155,7 @@
 ### 2026-02-07
 - Rebranded app to "Swap it Smart Creativity Agent"
 - Added @recipe mentions in chat with inline recipe cards
-- Added recipe collections (replacing bookmarks), shopping list components, home feed
+- Added recipe collections (replacing bookmarks) and home feed
 - Replaced dashboard layout with workspace-first design
 - Added onboarding components and conversation threads with auto-summarization
 - Added recipe import service with multi-source support and model fallback
